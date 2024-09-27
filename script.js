@@ -1,5 +1,3 @@
-alert("Edit the player names by clicking on them.");
-
 let editedText1 = 'Player 1';
 let editedText2 = 'Player 2';
 const maxLength = 9;
@@ -51,3 +49,6 @@ document.querySelectorAll(".editable").forEach(function(element, index) {
         inputBox.focus(); // focus the input box
     })
 })
+
+alert("Edit the player names by clicking on them.");
+
