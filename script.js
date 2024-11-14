@@ -49,6 +49,3 @@ document.querySelectorAll(".editable").forEach(function(element, index) {
         inputBox.focus(); // focus the input box
     })
 })
-
-alert("Edit the player names by clicking on them.");
-
